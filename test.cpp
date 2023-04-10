@@ -1,37 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(){
+	// int no;
+	// cin>>no;//12
 
+	// int i=0;
 
-	// while( condition is true ) {
-	//do some stuff
-	// }
-
-	// print number from 1 to n
-
-	int n;
-	cin>>n;//5
-	int i=1;//initilization
-
-
-// loop
-	while(i<=n){//6<=5
-		cout<<i<<endl;//
-		i=i+1;//6
-
-	}
-
-	// if(i<=n){//6<=5
-	// 	cout<<i<<endl;//
-	// 	i=i+1;//6
+	// while(i*i<=no){//0*0<=12  1*1<=12 2*2<=12 3*3<=12 4*4<=12
+	// 	i=i+1;//1 2 3 4
 
 	// }
+	// // loop se bahar aayega
+	// cout<<"square root is "<<i-1<<endl;
 
-	
-	
+	int no;
+	cin>>no;
+	cout<<sqrt(no)<<endl;
 
-
-	// 
 
 
 	return 0;
